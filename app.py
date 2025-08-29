@@ -62,7 +62,7 @@ for i in range(5):
 st.dataframe(my_dict)
 
 
-f=open('C:\\Users\\Dell\\Aeroplane_Project\\cab_model.pkl','rb')
+f=open('cab_model.pkl','rb')
 chatGPT = pk.load(f)
 result = round(chatGPT.predict([to_predict])[0],1)
 
@@ -73,7 +73,3 @@ st.markdown(
     "<h3 style='font-size:50px;'>"+to_write+"</h3>", 
     unsafe_allow_html=True
 )
-
-
-
-
