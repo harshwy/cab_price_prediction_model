@@ -1,5 +1,4 @@
 import streamlit as st
-import IPython
 import important_functions as ipn
 import pandas as pd
 import pickle as pk
